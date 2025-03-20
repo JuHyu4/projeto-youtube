@@ -9,11 +9,11 @@ html{
 }
 
 .container{
-    background-color: #272233d5;
+    background-color: #aa95dd42;
     max-width: 900px;
     gap: 20px;
     padding: 35px;
-    margin: 150px;
+    margin: 250px;
 
     display: grid;
     grid-template-areas: 
