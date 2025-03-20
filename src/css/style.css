@@ -1,0 +1,89 @@
+html{
+    background-image: url(../imagens/fundo-site.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: #ffff;
+}
+
+.container{
+    background-color: #272233d5;
+    max-width: 900px;
+    gap: 20px;
+    padding: 35px;
+    margin: 150px;
+
+    display: grid;
+    grid-template-areas: 
+    "video-destaque propaganda"
+    "video-destaque videos-sugeridos";
+    grid-template-columns: 1fr 270px;
+    grid-template-rows:  56px 1fr;
+}
+
+.video-destaque{
+    grid-area: video-destaque;
+
+}
+
+.video-destaque img{
+    width: 240px;
+    height: 217px;
+    margin-bottom: 12px;
+    width: 100%;
+}
+
+.video-destaque .informacoes h1{
+    font-size: 25px;
+    margin: 10px;
+}
+
+.video-destaque .informacoes .visualizacoes{
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+
+.video-destaque .informacoes p{
+    font-size: 18px;
+}
+
+.propaganda{
+    grid-area: propaganda;
+
+}
+
+.propaganda img{
+    width: 270px;
+    height:56px;
+}
+
+.videos-sugeridos{
+    grid-area: videos-sugeridos;
+}
+
+.videos-sugeridos .video {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+.videos-sugeridos .video .titulo{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.videos-sugeridos .visualizacoes{
+    font-size: 12px;
+}
+
+.videos-sugeridos .video img{
+    width: 267px;
+    height: 102px;
+}
+
+.videos-sugeridos .video p{
+    font-size: 11px;
+    margin-bottom: 5px;
+}
